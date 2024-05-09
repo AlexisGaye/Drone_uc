@@ -54,16 +54,17 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alexis/Project/uCOS_Drone
+CMAKE_SOURCE_DIR = "/home/alexis/Project/uCOS_Drone (another copy)"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alexis/Project/uCOS_Drone/build
+CMAKE_BINARY_DIR = "/home/alexis/Project/uCOS_Drone (another copy)/build"
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Drone.dir/all
+all: CMakeFiles/Drone.elf.dir/all
+all: CMakeFiles/Drone.bin.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +72,61 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Drone.dir/clean
+clean: CMakeFiles/Drone.elf.dir/clean
+clean: CMakeFiles/Drone.bin.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Drone.dir
+# Target rules for target CMakeFiles/Drone.elf.dir
 
 # All Build rule for target.
-CMakeFiles/Drone.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.dir/build.make CMakeFiles/Drone.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.dir/build.make CMakeFiles/Drone.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alexis/Project/uCOS_Drone/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69 "Built target Drone"
-.PHONY : CMakeFiles/Drone.dir/all
+CMakeFiles/Drone.elf.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/alexis/Project/uCOS_Drone (another copy)/build/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27 "Built target Drone.elf"
+.PHONY : CMakeFiles/Drone.elf.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Drone.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alexis/Project/uCOS_Drone/build/CMakeFiles 69
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Drone.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alexis/Project/uCOS_Drone/build/CMakeFiles 0
-.PHONY : CMakeFiles/Drone.dir/rule
+CMakeFiles/Drone.elf.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/alexis/Project/uCOS_Drone (another copy)/build/CMakeFiles" 27
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Drone.elf.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/alexis/Project/uCOS_Drone (another copy)/build/CMakeFiles" 0
+.PHONY : CMakeFiles/Drone.elf.dir/rule
 
 # Convenience name for target.
-Drone: CMakeFiles/Drone.dir/rule
-.PHONY : Drone
+Drone.elf: CMakeFiles/Drone.elf.dir/rule
+.PHONY : Drone.elf
 
 # clean rule for target.
-CMakeFiles/Drone.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.dir/build.make CMakeFiles/Drone.dir/clean
-.PHONY : CMakeFiles/Drone.dir/clean
+CMakeFiles/Drone.elf.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/clean
+.PHONY : CMakeFiles/Drone.elf.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Drone.bin.dir
+
+# All Build rule for target.
+CMakeFiles/Drone.bin.dir/all: CMakeFiles/Drone.elf.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.bin.dir/build.make CMakeFiles/Drone.bin.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.bin.dir/build.make CMakeFiles/Drone.bin.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/alexis/Project/uCOS_Drone (another copy)/build/CMakeFiles" --progress-num= "Built target Drone.bin"
+.PHONY : CMakeFiles/Drone.bin.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Drone.bin.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/alexis/Project/uCOS_Drone (another copy)/build/CMakeFiles" 27
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Drone.bin.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/alexis/Project/uCOS_Drone (another copy)/build/CMakeFiles" 0
+.PHONY : CMakeFiles/Drone.bin.dir/rule
+
+# Convenience name for target.
+Drone.bin: CMakeFiles/Drone.bin.dir/rule
+.PHONY : Drone.bin
+
+# clean rule for target.
+CMakeFiles/Drone.bin.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.bin.dir/build.make CMakeFiles/Drone.bin.dir/clean
+.PHONY : CMakeFiles/Drone.bin.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
