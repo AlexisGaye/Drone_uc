@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(Drone C ASM)
+project(Drone NONE)
+
+set(CMAKE_TRY_COMPILE_TARGET_TYPE STATIC_LIBRARY)
 
 # output compile_commands.json
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
@@ -13,10 +15,10 @@ set(CMAKE_C_EXTENSIONS OFF)
 
 # add startup file
 set(STARTUP_FILE ${CMAKE_CURRENT_SOURCE_DIR}/CORE/startup_stm32f401xe.s)
-# set(OS_CPU_A_FILE ${CMAKE_CURRENT_SOURCE_DIR}/os/os_cpu_a.s)
+set(OS_CPU_A_FILE ${CMAKE_CURRENT_SOURCE_DIR}/os/os_cpu_a.s)
 
 # add .h
-set(LINKER_SCRIPT ${CMAKE_CURRENT_SOURCE_DIR}/CORE/STM32F401RETx_FLASH.ld)
+set(LINKER_SCRIPT ${CMAKE_CURRENT_SOURCE_DIR}/STM32F401RETx_FLASH.ld)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/CORE)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/FWLIB/inc)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/HARDWARE/inc)
@@ -35,22 +37,28 @@ file(GLOB SOURCE
 set(SOURCE_FILES ${SOURCE})
 
 # set compiler and linker
-set(CMAKE_C_COMPILER arm-none-eabi-gcc)
-set(CMAKE_ASM_COMPILER arm-none-eabi-gcc)                                                        
-set(CMAKE_LINKER arm-none-eabi-ld)
+set(CMAKE_C_COMPILER /opt/gcc-arm-none-eabi/bin/arm-none-eabi-gcc)
+set(CMAKE_ASM_COMPILER /opt/gcc-arm-none-eabi/bin/arm-none-eabi-gcc)                                                        
+set(CMAKE_LINKER /opt/gcc-arm-none-eabi/bin/arm-none-eabi-ld)
 
-#set compiler option
+# 增加宏定义
+add_definitions(-DSTM32F401xx -DUSE_STDPERIPH_DRIVER)
+
+# 设置编译选项
 set(CMAKE_C_FLAGS "-mthumb -mcpu=cortex-m4 -std=c99 -g -Os \
     -ffunction-sections -fdata-sections -Wall -Wextra \
     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body")
+# set(CMAKE_CXX_FLAGS "-mthumb -mcpu=cortex-m4 -std=gnu++17 -g -Os -ffunction-sections -fdata-sections -Wall -Wextra")
 set(CMAKE_ASM_FLAGS "-mthumb -mcpu=cortex-m4 -g -x assembler-with-cpp")
 
-# set linker option
-set(CMAKE_EXE_LINKER_FLAGS "-mthumb -mabi=aapcs -mcpu=cortex-m4 \
-    --specs=nano.specs --specs=nosys.specs -u _printf_float -u _scanf_float \
-    -Wl,--gc-sections -Wl,-Map=${PROJECT_NAME}.map -T${LINKER_SCRIPT}")
-
+# 设置链接选项
+add_link_options(-mcpu=cortex-m4 -mthumb -DSTM32F401xx -T${CMAKE_SOURCE_DIR}/STM32F401RETx_FLASH.ld --specs=nano.specs -u _printf_float -lc -lm -Wl,-Map=${CMAKE_SOURCE_DIR}/build/${CMAKE_PROJECT_NAME}.map,--cref -Wl,--gc-sections)
 
 # ${OS_CPU_A_FILE}
-add_executable(Drone ${SOURCE_FILES} ${STARTUP_FILE} )
-target_link_libraries(Drone -Wl,-Map=${PROJECT_NAME}.map -Wl,--gc-sections -Wl,--print-memory-usage -Wl,-lc -lm)
+# 添加可执行文件
+add_executable(${PROJECT_NAME}.elf ${SOURCE_FILES} ${STARTUP_FILE} ${OS_CPU_A_FILE})
+target_link_libraries(${PROJECT_NAME}.elf -Wl,--start-group -lgcc -lc -lm -lrdimon -Wl,--end-group)
+
+
+# 添加目标文件
+add_custom_target(${PROJECT_NAME}.bin ALL DEPENDS ${PROJECT_NAME}.elf COMMAND arm-none-eabi-objcopy -Obinary ${PROJECT_NAME}.elf ${PROJECT_NAME}.bin)
