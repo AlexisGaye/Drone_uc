@@ -42,7 +42,7 @@ set(CMAKE_ASM_COMPILER /opt/gcc-arm-none-eabi/bin/arm-none-eabi-gcc)
 set(CMAKE_LINKER /opt/gcc-arm-none-eabi/bin/arm-none-eabi-ld)
 
 # 增加宏定义
-add_definitions(-DSTM32F401xx -DUSE_STDPERIPH_DRIVER)
+# add_definitions(-DSTM32F401xx -DUSE_STDPERIPH_DRIVER)
 
 # 设置编译选项
 set(CMAKE_C_FLAGS "-mthumb -mcpu=cortex-m4 -std=c99 -g -Os \

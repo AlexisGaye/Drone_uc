@@ -150,6 +150,990 @@ CORE/startup_stm32f401xe.s.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/CORE/startup_stm32f401xe.s.o
 .PHONY : CORE/startup_stm32f401xe.s.o
 
+FWLIB/src/misc.o: FWLIB/src/misc.c.o
+.PHONY : FWLIB/src/misc.o
+
+# target to build an object file
+FWLIB/src/misc.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/misc.c.o
+.PHONY : FWLIB/src/misc.c.o
+
+FWLIB/src/misc.i: FWLIB/src/misc.c.i
+.PHONY : FWLIB/src/misc.i
+
+# target to preprocess a source file
+FWLIB/src/misc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/misc.c.i
+.PHONY : FWLIB/src/misc.c.i
+
+FWLIB/src/misc.s: FWLIB/src/misc.c.s
+.PHONY : FWLIB/src/misc.s
+
+# target to generate assembly for a file
+FWLIB/src/misc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/misc.c.s
+.PHONY : FWLIB/src/misc.c.s
+
+FWLIB/src/stm32f4xx_adc.o: FWLIB/src/stm32f4xx_adc.c.o
+.PHONY : FWLIB/src/stm32f4xx_adc.o
+
+# target to build an object file
+FWLIB/src/stm32f4xx_adc.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_adc.c.o
+.PHONY : FWLIB/src/stm32f4xx_adc.c.o
+
+FWLIB/src/stm32f4xx_adc.i: FWLIB/src/stm32f4xx_adc.c.i
+.PHONY : FWLIB/src/stm32f4xx_adc.i
+
+# target to preprocess a source file
+FWLIB/src/stm32f4xx_adc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_adc.c.i
+.PHONY : FWLIB/src/stm32f4xx_adc.c.i
+
+FWLIB/src/stm32f4xx_adc.s: FWLIB/src/stm32f4xx_adc.c.s
+.PHONY : FWLIB/src/stm32f4xx_adc.s
+
+# target to generate assembly for a file
+FWLIB/src/stm32f4xx_adc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_adc.c.s
+.PHONY : FWLIB/src/stm32f4xx_adc.c.s
+
+FWLIB/src/stm32f4xx_can.o: FWLIB/src/stm32f4xx_can.c.o
+.PHONY : FWLIB/src/stm32f4xx_can.o
+
+# target to build an object file
+FWLIB/src/stm32f4xx_can.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_can.c.o
+.PHONY : FWLIB/src/stm32f4xx_can.c.o
+
+FWLIB/src/stm32f4xx_can.i: FWLIB/src/stm32f4xx_can.c.i
+.PHONY : FWLIB/src/stm32f4xx_can.i
+
+# target to preprocess a source file
+FWLIB/src/stm32f4xx_can.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_can.c.i
+.PHONY : FWLIB/src/stm32f4xx_can.c.i
+
+FWLIB/src/stm32f4xx_can.s: FWLIB/src/stm32f4xx_can.c.s
+.PHONY : FWLIB/src/stm32f4xx_can.s
+
+# target to generate assembly for a file
+FWLIB/src/stm32f4xx_can.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_can.c.s
+.PHONY : FWLIB/src/stm32f4xx_can.c.s
+
+FWLIB/src/stm32f4xx_cec.o: FWLIB/src/stm32f4xx_cec.c.o
+.PHONY : FWLIB/src/stm32f4xx_cec.o
+
+# target to build an object file
+FWLIB/src/stm32f4xx_cec.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_cec.c.o
+.PHONY : FWLIB/src/stm32f4xx_cec.c.o
+
+FWLIB/src/stm32f4xx_cec.i: FWLIB/src/stm32f4xx_cec.c.i
+.PHONY : FWLIB/src/stm32f4xx_cec.i
+
+# target to preprocess a source file
+FWLIB/src/stm32f4xx_cec.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_cec.c.i
+.PHONY : FWLIB/src/stm32f4xx_cec.c.i
+
+FWLIB/src/stm32f4xx_cec.s: FWLIB/src/stm32f4xx_cec.c.s
+.PHONY : FWLIB/src/stm32f4xx_cec.s
+
+# target to generate assembly for a file
+FWLIB/src/stm32f4xx_cec.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_cec.c.s
+.PHONY : FWLIB/src/stm32f4xx_cec.c.s
+
+FWLIB/src/stm32f4xx_crc.o: FWLIB/src/stm32f4xx_crc.c.o
+.PHONY : FWLIB/src/stm32f4xx_crc.o
+
+# target to build an object file
+FWLIB/src/stm32f4xx_crc.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_crc.c.o
+.PHONY : FWLIB/src/stm32f4xx_crc.c.o
+
+FWLIB/src/stm32f4xx_crc.i: FWLIB/src/stm32f4xx_crc.c.i
+.PHONY : FWLIB/src/stm32f4xx_crc.i
+
+# target to preprocess a source file
+FWLIB/src/stm32f4xx_crc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_crc.c.i
+.PHONY : FWLIB/src/stm32f4xx_crc.c.i
+
+FWLIB/src/stm32f4xx_crc.s: FWLIB/src/stm32f4xx_crc.c.s
+.PHONY : FWLIB/src/stm32f4xx_crc.s
+
+# target to generate assembly for a file
+FWLIB/src/stm32f4xx_crc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_crc.c.s
+.PHONY : FWLIB/src/stm32f4xx_crc.c.s
+
+FWLIB/src/stm32f4xx_cryp.o: FWLIB/src/stm32f4xx_cryp.c.o
+.PHONY : FWLIB/src/stm32f4xx_cryp.o
+
+# target to build an object file
+FWLIB/src/stm32f4xx_cryp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_cryp.c.o
+.PHONY : FWLIB/src/stm32f4xx_cryp.c.o
+
+FWLIB/src/stm32f4xx_cryp.i: FWLIB/src/stm32f4xx_cryp.c.i
+.PHONY : FWLIB/src/stm32f4xx_cryp.i
+
+# target to preprocess a source file
+FWLIB/src/stm32f4xx_cryp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_cryp.c.i
+.PHONY : FWLIB/src/stm32f4xx_cryp.c.i
+
+FWLIB/src/stm32f4xx_cryp.s: FWLIB/src/stm32f4xx_cryp.c.s
+.PHONY : FWLIB/src/stm32f4xx_cryp.s
+
+# target to generate assembly for a file
+FWLIB/src/stm32f4xx_cryp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_cryp.c.s
+.PHONY : FWLIB/src/stm32f4xx_cryp.c.s
+
+FWLIB/src/stm32f4xx_cryp_aes.o: FWLIB/src/stm32f4xx_cryp_aes.c.o
+.PHONY : FWLIB/src/stm32f4xx_cryp_aes.o
+
+# target to build an object file
+FWLIB/src/stm32f4xx_cryp_aes.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_cryp_aes.c.o
+.PHONY : FWLIB/src/stm32f4xx_cryp_aes.c.o
+
+FWLIB/src/stm32f4xx_cryp_aes.i: FWLIB/src/stm32f4xx_cryp_aes.c.i
+.PHONY : FWLIB/src/stm32f4xx_cryp_aes.i
+
+# target to preprocess a source file
+FWLIB/src/stm32f4xx_cryp_aes.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_cryp_aes.c.i
+.PHONY : FWLIB/src/stm32f4xx_cryp_aes.c.i
+
+FWLIB/src/stm32f4xx_cryp_aes.s: FWLIB/src/stm32f4xx_cryp_aes.c.s
+.PHONY : FWLIB/src/stm32f4xx_cryp_aes.s
+
+# target to generate assembly for a file
+FWLIB/src/stm32f4xx_cryp_aes.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_cryp_aes.c.s
+.PHONY : FWLIB/src/stm32f4xx_cryp_aes.c.s
+
+FWLIB/src/stm32f4xx_cryp_des.o: FWLIB/src/stm32f4xx_cryp_des.c.o
+.PHONY : FWLIB/src/stm32f4xx_cryp_des.o
+
+# target to build an object file
+FWLIB/src/stm32f4xx_cryp_des.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_cryp_des.c.o
+.PHONY : FWLIB/src/stm32f4xx_cryp_des.c.o
+
+FWLIB/src/stm32f4xx_cryp_des.i: FWLIB/src/stm32f4xx_cryp_des.c.i
+.PHONY : FWLIB/src/stm32f4xx_cryp_des.i
+
+# target to preprocess a source file
+FWLIB/src/stm32f4xx_cryp_des.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_cryp_des.c.i
+.PHONY : FWLIB/src/stm32f4xx_cryp_des.c.i
+
+FWLIB/src/stm32f4xx_cryp_des.s: FWLIB/src/stm32f4xx_cryp_des.c.s
+.PHONY : FWLIB/src/stm32f4xx_cryp_des.s
+
+# target to generate assembly for a file
+FWLIB/src/stm32f4xx_cryp_des.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_cryp_des.c.s
+.PHONY : FWLIB/src/stm32f4xx_cryp_des.c.s
+
+FWLIB/src/stm32f4xx_cryp_tdes.o: FWLIB/src/stm32f4xx_cryp_tdes.c.o
+.PHONY : FWLIB/src/stm32f4xx_cryp_tdes.o
+
+# target to build an object file
+FWLIB/src/stm32f4xx_cryp_tdes.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_cryp_tdes.c.o
+.PHONY : FWLIB/src/stm32f4xx_cryp_tdes.c.o
+
+FWLIB/src/stm32f4xx_cryp_tdes.i: FWLIB/src/stm32f4xx_cryp_tdes.c.i
+.PHONY : FWLIB/src/stm32f4xx_cryp_tdes.i
+
+# target to preprocess a source file
+FWLIB/src/stm32f4xx_cryp_tdes.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_cryp_tdes.c.i
+.PHONY : FWLIB/src/stm32f4xx_cryp_tdes.c.i
+
+FWLIB/src/stm32f4xx_cryp_tdes.s: FWLIB/src/stm32f4xx_cryp_tdes.c.s
+.PHONY : FWLIB/src/stm32f4xx_cryp_tdes.s
+
+# target to generate assembly for a file
+FWLIB/src/stm32f4xx_cryp_tdes.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_cryp_tdes.c.s
+.PHONY : FWLIB/src/stm32f4xx_cryp_tdes.c.s
+
+FWLIB/src/stm32f4xx_dac.o: FWLIB/src/stm32f4xx_dac.c.o
+.PHONY : FWLIB/src/stm32f4xx_dac.o
+
+# target to build an object file
+FWLIB/src/stm32f4xx_dac.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_dac.c.o
+.PHONY : FWLIB/src/stm32f4xx_dac.c.o
+
+FWLIB/src/stm32f4xx_dac.i: FWLIB/src/stm32f4xx_dac.c.i
+.PHONY : FWLIB/src/stm32f4xx_dac.i
+
+# target to preprocess a source file
+FWLIB/src/stm32f4xx_dac.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_dac.c.i
+.PHONY : FWLIB/src/stm32f4xx_dac.c.i
+
+FWLIB/src/stm32f4xx_dac.s: FWLIB/src/stm32f4xx_dac.c.s
+.PHONY : FWLIB/src/stm32f4xx_dac.s
+
+# target to generate assembly for a file
+FWLIB/src/stm32f4xx_dac.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_dac.c.s
+.PHONY : FWLIB/src/stm32f4xx_dac.c.s
+
+FWLIB/src/stm32f4xx_dbgmcu.o: FWLIB/src/stm32f4xx_dbgmcu.c.o
+.PHONY : FWLIB/src/stm32f4xx_dbgmcu.o
+
+# target to build an object file
+FWLIB/src/stm32f4xx_dbgmcu.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_dbgmcu.c.o
+.PHONY : FWLIB/src/stm32f4xx_dbgmcu.c.o
+
+FWLIB/src/stm32f4xx_dbgmcu.i: FWLIB/src/stm32f4xx_dbgmcu.c.i
+.PHONY : FWLIB/src/stm32f4xx_dbgmcu.i
+
+# target to preprocess a source file
+FWLIB/src/stm32f4xx_dbgmcu.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_dbgmcu.c.i
+.PHONY : FWLIB/src/stm32f4xx_dbgmcu.c.i
+
+FWLIB/src/stm32f4xx_dbgmcu.s: FWLIB/src/stm32f4xx_dbgmcu.c.s
+.PHONY : FWLIB/src/stm32f4xx_dbgmcu.s
+
+# target to generate assembly for a file
+FWLIB/src/stm32f4xx_dbgmcu.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_dbgmcu.c.s
+.PHONY : FWLIB/src/stm32f4xx_dbgmcu.c.s
+
+FWLIB/src/stm32f4xx_dcmi.o: FWLIB/src/stm32f4xx_dcmi.c.o
+.PHONY : FWLIB/src/stm32f4xx_dcmi.o
+
+# target to build an object file
+FWLIB/src/stm32f4xx_dcmi.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_dcmi.c.o
+.PHONY : FWLIB/src/stm32f4xx_dcmi.c.o
+
+FWLIB/src/stm32f4xx_dcmi.i: FWLIB/src/stm32f4xx_dcmi.c.i
+.PHONY : FWLIB/src/stm32f4xx_dcmi.i
+
+# target to preprocess a source file
+FWLIB/src/stm32f4xx_dcmi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_dcmi.c.i
+.PHONY : FWLIB/src/stm32f4xx_dcmi.c.i
+
+FWLIB/src/stm32f4xx_dcmi.s: FWLIB/src/stm32f4xx_dcmi.c.s
+.PHONY : FWLIB/src/stm32f4xx_dcmi.s
+
+# target to generate assembly for a file
+FWLIB/src/stm32f4xx_dcmi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_dcmi.c.s
+.PHONY : FWLIB/src/stm32f4xx_dcmi.c.s
+
+FWLIB/src/stm32f4xx_dfsdm.o: FWLIB/src/stm32f4xx_dfsdm.c.o
+.PHONY : FWLIB/src/stm32f4xx_dfsdm.o
+
+# target to build an object file
+FWLIB/src/stm32f4xx_dfsdm.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_dfsdm.c.o
+.PHONY : FWLIB/src/stm32f4xx_dfsdm.c.o
+
+FWLIB/src/stm32f4xx_dfsdm.i: FWLIB/src/stm32f4xx_dfsdm.c.i
+.PHONY : FWLIB/src/stm32f4xx_dfsdm.i
+
+# target to preprocess a source file
+FWLIB/src/stm32f4xx_dfsdm.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_dfsdm.c.i
+.PHONY : FWLIB/src/stm32f4xx_dfsdm.c.i
+
+FWLIB/src/stm32f4xx_dfsdm.s: FWLIB/src/stm32f4xx_dfsdm.c.s
+.PHONY : FWLIB/src/stm32f4xx_dfsdm.s
+
+# target to generate assembly for a file
+FWLIB/src/stm32f4xx_dfsdm.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_dfsdm.c.s
+.PHONY : FWLIB/src/stm32f4xx_dfsdm.c.s
+
+FWLIB/src/stm32f4xx_dma.o: FWLIB/src/stm32f4xx_dma.c.o
+.PHONY : FWLIB/src/stm32f4xx_dma.o
+
+# target to build an object file
+FWLIB/src/stm32f4xx_dma.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_dma.c.o
+.PHONY : FWLIB/src/stm32f4xx_dma.c.o
+
+FWLIB/src/stm32f4xx_dma.i: FWLIB/src/stm32f4xx_dma.c.i
+.PHONY : FWLIB/src/stm32f4xx_dma.i
+
+# target to preprocess a source file
+FWLIB/src/stm32f4xx_dma.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_dma.c.i
+.PHONY : FWLIB/src/stm32f4xx_dma.c.i
+
+FWLIB/src/stm32f4xx_dma.s: FWLIB/src/stm32f4xx_dma.c.s
+.PHONY : FWLIB/src/stm32f4xx_dma.s
+
+# target to generate assembly for a file
+FWLIB/src/stm32f4xx_dma.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_dma.c.s
+.PHONY : FWLIB/src/stm32f4xx_dma.c.s
+
+FWLIB/src/stm32f4xx_dma2d.o: FWLIB/src/stm32f4xx_dma2d.c.o
+.PHONY : FWLIB/src/stm32f4xx_dma2d.o
+
+# target to build an object file
+FWLIB/src/stm32f4xx_dma2d.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_dma2d.c.o
+.PHONY : FWLIB/src/stm32f4xx_dma2d.c.o
+
+FWLIB/src/stm32f4xx_dma2d.i: FWLIB/src/stm32f4xx_dma2d.c.i
+.PHONY : FWLIB/src/stm32f4xx_dma2d.i
+
+# target to preprocess a source file
+FWLIB/src/stm32f4xx_dma2d.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_dma2d.c.i
+.PHONY : FWLIB/src/stm32f4xx_dma2d.c.i
+
+FWLIB/src/stm32f4xx_dma2d.s: FWLIB/src/stm32f4xx_dma2d.c.s
+.PHONY : FWLIB/src/stm32f4xx_dma2d.s
+
+# target to generate assembly for a file
+FWLIB/src/stm32f4xx_dma2d.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_dma2d.c.s
+.PHONY : FWLIB/src/stm32f4xx_dma2d.c.s
+
+FWLIB/src/stm32f4xx_dsi.o: FWLIB/src/stm32f4xx_dsi.c.o
+.PHONY : FWLIB/src/stm32f4xx_dsi.o
+
+# target to build an object file
+FWLIB/src/stm32f4xx_dsi.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_dsi.c.o
+.PHONY : FWLIB/src/stm32f4xx_dsi.c.o
+
+FWLIB/src/stm32f4xx_dsi.i: FWLIB/src/stm32f4xx_dsi.c.i
+.PHONY : FWLIB/src/stm32f4xx_dsi.i
+
+# target to preprocess a source file
+FWLIB/src/stm32f4xx_dsi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_dsi.c.i
+.PHONY : FWLIB/src/stm32f4xx_dsi.c.i
+
+FWLIB/src/stm32f4xx_dsi.s: FWLIB/src/stm32f4xx_dsi.c.s
+.PHONY : FWLIB/src/stm32f4xx_dsi.s
+
+# target to generate assembly for a file
+FWLIB/src/stm32f4xx_dsi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_dsi.c.s
+.PHONY : FWLIB/src/stm32f4xx_dsi.c.s
+
+FWLIB/src/stm32f4xx_exti.o: FWLIB/src/stm32f4xx_exti.c.o
+.PHONY : FWLIB/src/stm32f4xx_exti.o
+
+# target to build an object file
+FWLIB/src/stm32f4xx_exti.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_exti.c.o
+.PHONY : FWLIB/src/stm32f4xx_exti.c.o
+
+FWLIB/src/stm32f4xx_exti.i: FWLIB/src/stm32f4xx_exti.c.i
+.PHONY : FWLIB/src/stm32f4xx_exti.i
+
+# target to preprocess a source file
+FWLIB/src/stm32f4xx_exti.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_exti.c.i
+.PHONY : FWLIB/src/stm32f4xx_exti.c.i
+
+FWLIB/src/stm32f4xx_exti.s: FWLIB/src/stm32f4xx_exti.c.s
+.PHONY : FWLIB/src/stm32f4xx_exti.s
+
+# target to generate assembly for a file
+FWLIB/src/stm32f4xx_exti.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_exti.c.s
+.PHONY : FWLIB/src/stm32f4xx_exti.c.s
+
+FWLIB/src/stm32f4xx_flash.o: FWLIB/src/stm32f4xx_flash.c.o
+.PHONY : FWLIB/src/stm32f4xx_flash.o
+
+# target to build an object file
+FWLIB/src/stm32f4xx_flash.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_flash.c.o
+.PHONY : FWLIB/src/stm32f4xx_flash.c.o
+
+FWLIB/src/stm32f4xx_flash.i: FWLIB/src/stm32f4xx_flash.c.i
+.PHONY : FWLIB/src/stm32f4xx_flash.i
+
+# target to preprocess a source file
+FWLIB/src/stm32f4xx_flash.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_flash.c.i
+.PHONY : FWLIB/src/stm32f4xx_flash.c.i
+
+FWLIB/src/stm32f4xx_flash.s: FWLIB/src/stm32f4xx_flash.c.s
+.PHONY : FWLIB/src/stm32f4xx_flash.s
+
+# target to generate assembly for a file
+FWLIB/src/stm32f4xx_flash.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_flash.c.s
+.PHONY : FWLIB/src/stm32f4xx_flash.c.s
+
+FWLIB/src/stm32f4xx_flash_ramfunc.o: FWLIB/src/stm32f4xx_flash_ramfunc.c.o
+.PHONY : FWLIB/src/stm32f4xx_flash_ramfunc.o
+
+# target to build an object file
+FWLIB/src/stm32f4xx_flash_ramfunc.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_flash_ramfunc.c.o
+.PHONY : FWLIB/src/stm32f4xx_flash_ramfunc.c.o
+
+FWLIB/src/stm32f4xx_flash_ramfunc.i: FWLIB/src/stm32f4xx_flash_ramfunc.c.i
+.PHONY : FWLIB/src/stm32f4xx_flash_ramfunc.i
+
+# target to preprocess a source file
+FWLIB/src/stm32f4xx_flash_ramfunc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_flash_ramfunc.c.i
+.PHONY : FWLIB/src/stm32f4xx_flash_ramfunc.c.i
+
+FWLIB/src/stm32f4xx_flash_ramfunc.s: FWLIB/src/stm32f4xx_flash_ramfunc.c.s
+.PHONY : FWLIB/src/stm32f4xx_flash_ramfunc.s
+
+# target to generate assembly for a file
+FWLIB/src/stm32f4xx_flash_ramfunc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_flash_ramfunc.c.s
+.PHONY : FWLIB/src/stm32f4xx_flash_ramfunc.c.s
+
+FWLIB/src/stm32f4xx_fmpi2c.o: FWLIB/src/stm32f4xx_fmpi2c.c.o
+.PHONY : FWLIB/src/stm32f4xx_fmpi2c.o
+
+# target to build an object file
+FWLIB/src/stm32f4xx_fmpi2c.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_fmpi2c.c.o
+.PHONY : FWLIB/src/stm32f4xx_fmpi2c.c.o
+
+FWLIB/src/stm32f4xx_fmpi2c.i: FWLIB/src/stm32f4xx_fmpi2c.c.i
+.PHONY : FWLIB/src/stm32f4xx_fmpi2c.i
+
+# target to preprocess a source file
+FWLIB/src/stm32f4xx_fmpi2c.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_fmpi2c.c.i
+.PHONY : FWLIB/src/stm32f4xx_fmpi2c.c.i
+
+FWLIB/src/stm32f4xx_fmpi2c.s: FWLIB/src/stm32f4xx_fmpi2c.c.s
+.PHONY : FWLIB/src/stm32f4xx_fmpi2c.s
+
+# target to generate assembly for a file
+FWLIB/src/stm32f4xx_fmpi2c.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_fmpi2c.c.s
+.PHONY : FWLIB/src/stm32f4xx_fmpi2c.c.s
+
+FWLIB/src/stm32f4xx_gpio.o: FWLIB/src/stm32f4xx_gpio.c.o
+.PHONY : FWLIB/src/stm32f4xx_gpio.o
+
+# target to build an object file
+FWLIB/src/stm32f4xx_gpio.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_gpio.c.o
+.PHONY : FWLIB/src/stm32f4xx_gpio.c.o
+
+FWLIB/src/stm32f4xx_gpio.i: FWLIB/src/stm32f4xx_gpio.c.i
+.PHONY : FWLIB/src/stm32f4xx_gpio.i
+
+# target to preprocess a source file
+FWLIB/src/stm32f4xx_gpio.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_gpio.c.i
+.PHONY : FWLIB/src/stm32f4xx_gpio.c.i
+
+FWLIB/src/stm32f4xx_gpio.s: FWLIB/src/stm32f4xx_gpio.c.s
+.PHONY : FWLIB/src/stm32f4xx_gpio.s
+
+# target to generate assembly for a file
+FWLIB/src/stm32f4xx_gpio.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_gpio.c.s
+.PHONY : FWLIB/src/stm32f4xx_gpio.c.s
+
+FWLIB/src/stm32f4xx_hash.o: FWLIB/src/stm32f4xx_hash.c.o
+.PHONY : FWLIB/src/stm32f4xx_hash.o
+
+# target to build an object file
+FWLIB/src/stm32f4xx_hash.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_hash.c.o
+.PHONY : FWLIB/src/stm32f4xx_hash.c.o
+
+FWLIB/src/stm32f4xx_hash.i: FWLIB/src/stm32f4xx_hash.c.i
+.PHONY : FWLIB/src/stm32f4xx_hash.i
+
+# target to preprocess a source file
+FWLIB/src/stm32f4xx_hash.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_hash.c.i
+.PHONY : FWLIB/src/stm32f4xx_hash.c.i
+
+FWLIB/src/stm32f4xx_hash.s: FWLIB/src/stm32f4xx_hash.c.s
+.PHONY : FWLIB/src/stm32f4xx_hash.s
+
+# target to generate assembly for a file
+FWLIB/src/stm32f4xx_hash.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_hash.c.s
+.PHONY : FWLIB/src/stm32f4xx_hash.c.s
+
+FWLIB/src/stm32f4xx_hash_md5.o: FWLIB/src/stm32f4xx_hash_md5.c.o
+.PHONY : FWLIB/src/stm32f4xx_hash_md5.o
+
+# target to build an object file
+FWLIB/src/stm32f4xx_hash_md5.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_hash_md5.c.o
+.PHONY : FWLIB/src/stm32f4xx_hash_md5.c.o
+
+FWLIB/src/stm32f4xx_hash_md5.i: FWLIB/src/stm32f4xx_hash_md5.c.i
+.PHONY : FWLIB/src/stm32f4xx_hash_md5.i
+
+# target to preprocess a source file
+FWLIB/src/stm32f4xx_hash_md5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_hash_md5.c.i
+.PHONY : FWLIB/src/stm32f4xx_hash_md5.c.i
+
+FWLIB/src/stm32f4xx_hash_md5.s: FWLIB/src/stm32f4xx_hash_md5.c.s
+.PHONY : FWLIB/src/stm32f4xx_hash_md5.s
+
+# target to generate assembly for a file
+FWLIB/src/stm32f4xx_hash_md5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_hash_md5.c.s
+.PHONY : FWLIB/src/stm32f4xx_hash_md5.c.s
+
+FWLIB/src/stm32f4xx_hash_sha1.o: FWLIB/src/stm32f4xx_hash_sha1.c.o
+.PHONY : FWLIB/src/stm32f4xx_hash_sha1.o
+
+# target to build an object file
+FWLIB/src/stm32f4xx_hash_sha1.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_hash_sha1.c.o
+.PHONY : FWLIB/src/stm32f4xx_hash_sha1.c.o
+
+FWLIB/src/stm32f4xx_hash_sha1.i: FWLIB/src/stm32f4xx_hash_sha1.c.i
+.PHONY : FWLIB/src/stm32f4xx_hash_sha1.i
+
+# target to preprocess a source file
+FWLIB/src/stm32f4xx_hash_sha1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_hash_sha1.c.i
+.PHONY : FWLIB/src/stm32f4xx_hash_sha1.c.i
+
+FWLIB/src/stm32f4xx_hash_sha1.s: FWLIB/src/stm32f4xx_hash_sha1.c.s
+.PHONY : FWLIB/src/stm32f4xx_hash_sha1.s
+
+# target to generate assembly for a file
+FWLIB/src/stm32f4xx_hash_sha1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_hash_sha1.c.s
+.PHONY : FWLIB/src/stm32f4xx_hash_sha1.c.s
+
+FWLIB/src/stm32f4xx_i2c.o: FWLIB/src/stm32f4xx_i2c.c.o
+.PHONY : FWLIB/src/stm32f4xx_i2c.o
+
+# target to build an object file
+FWLIB/src/stm32f4xx_i2c.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_i2c.c.o
+.PHONY : FWLIB/src/stm32f4xx_i2c.c.o
+
+FWLIB/src/stm32f4xx_i2c.i: FWLIB/src/stm32f4xx_i2c.c.i
+.PHONY : FWLIB/src/stm32f4xx_i2c.i
+
+# target to preprocess a source file
+FWLIB/src/stm32f4xx_i2c.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_i2c.c.i
+.PHONY : FWLIB/src/stm32f4xx_i2c.c.i
+
+FWLIB/src/stm32f4xx_i2c.s: FWLIB/src/stm32f4xx_i2c.c.s
+.PHONY : FWLIB/src/stm32f4xx_i2c.s
+
+# target to generate assembly for a file
+FWLIB/src/stm32f4xx_i2c.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_i2c.c.s
+.PHONY : FWLIB/src/stm32f4xx_i2c.c.s
+
+FWLIB/src/stm32f4xx_iwdg.o: FWLIB/src/stm32f4xx_iwdg.c.o
+.PHONY : FWLIB/src/stm32f4xx_iwdg.o
+
+# target to build an object file
+FWLIB/src/stm32f4xx_iwdg.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_iwdg.c.o
+.PHONY : FWLIB/src/stm32f4xx_iwdg.c.o
+
+FWLIB/src/stm32f4xx_iwdg.i: FWLIB/src/stm32f4xx_iwdg.c.i
+.PHONY : FWLIB/src/stm32f4xx_iwdg.i
+
+# target to preprocess a source file
+FWLIB/src/stm32f4xx_iwdg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_iwdg.c.i
+.PHONY : FWLIB/src/stm32f4xx_iwdg.c.i
+
+FWLIB/src/stm32f4xx_iwdg.s: FWLIB/src/stm32f4xx_iwdg.c.s
+.PHONY : FWLIB/src/stm32f4xx_iwdg.s
+
+# target to generate assembly for a file
+FWLIB/src/stm32f4xx_iwdg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_iwdg.c.s
+.PHONY : FWLIB/src/stm32f4xx_iwdg.c.s
+
+FWLIB/src/stm32f4xx_lptim.o: FWLIB/src/stm32f4xx_lptim.c.o
+.PHONY : FWLIB/src/stm32f4xx_lptim.o
+
+# target to build an object file
+FWLIB/src/stm32f4xx_lptim.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_lptim.c.o
+.PHONY : FWLIB/src/stm32f4xx_lptim.c.o
+
+FWLIB/src/stm32f4xx_lptim.i: FWLIB/src/stm32f4xx_lptim.c.i
+.PHONY : FWLIB/src/stm32f4xx_lptim.i
+
+# target to preprocess a source file
+FWLIB/src/stm32f4xx_lptim.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_lptim.c.i
+.PHONY : FWLIB/src/stm32f4xx_lptim.c.i
+
+FWLIB/src/stm32f4xx_lptim.s: FWLIB/src/stm32f4xx_lptim.c.s
+.PHONY : FWLIB/src/stm32f4xx_lptim.s
+
+# target to generate assembly for a file
+FWLIB/src/stm32f4xx_lptim.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_lptim.c.s
+.PHONY : FWLIB/src/stm32f4xx_lptim.c.s
+
+FWLIB/src/stm32f4xx_ltdc.o: FWLIB/src/stm32f4xx_ltdc.c.o
+.PHONY : FWLIB/src/stm32f4xx_ltdc.o
+
+# target to build an object file
+FWLIB/src/stm32f4xx_ltdc.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_ltdc.c.o
+.PHONY : FWLIB/src/stm32f4xx_ltdc.c.o
+
+FWLIB/src/stm32f4xx_ltdc.i: FWLIB/src/stm32f4xx_ltdc.c.i
+.PHONY : FWLIB/src/stm32f4xx_ltdc.i
+
+# target to preprocess a source file
+FWLIB/src/stm32f4xx_ltdc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_ltdc.c.i
+.PHONY : FWLIB/src/stm32f4xx_ltdc.c.i
+
+FWLIB/src/stm32f4xx_ltdc.s: FWLIB/src/stm32f4xx_ltdc.c.s
+.PHONY : FWLIB/src/stm32f4xx_ltdc.s
+
+# target to generate assembly for a file
+FWLIB/src/stm32f4xx_ltdc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_ltdc.c.s
+.PHONY : FWLIB/src/stm32f4xx_ltdc.c.s
+
+FWLIB/src/stm32f4xx_pwr.o: FWLIB/src/stm32f4xx_pwr.c.o
+.PHONY : FWLIB/src/stm32f4xx_pwr.o
+
+# target to build an object file
+FWLIB/src/stm32f4xx_pwr.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_pwr.c.o
+.PHONY : FWLIB/src/stm32f4xx_pwr.c.o
+
+FWLIB/src/stm32f4xx_pwr.i: FWLIB/src/stm32f4xx_pwr.c.i
+.PHONY : FWLIB/src/stm32f4xx_pwr.i
+
+# target to preprocess a source file
+FWLIB/src/stm32f4xx_pwr.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_pwr.c.i
+.PHONY : FWLIB/src/stm32f4xx_pwr.c.i
+
+FWLIB/src/stm32f4xx_pwr.s: FWLIB/src/stm32f4xx_pwr.c.s
+.PHONY : FWLIB/src/stm32f4xx_pwr.s
+
+# target to generate assembly for a file
+FWLIB/src/stm32f4xx_pwr.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_pwr.c.s
+.PHONY : FWLIB/src/stm32f4xx_pwr.c.s
+
+FWLIB/src/stm32f4xx_qspi.o: FWLIB/src/stm32f4xx_qspi.c.o
+.PHONY : FWLIB/src/stm32f4xx_qspi.o
+
+# target to build an object file
+FWLIB/src/stm32f4xx_qspi.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_qspi.c.o
+.PHONY : FWLIB/src/stm32f4xx_qspi.c.o
+
+FWLIB/src/stm32f4xx_qspi.i: FWLIB/src/stm32f4xx_qspi.c.i
+.PHONY : FWLIB/src/stm32f4xx_qspi.i
+
+# target to preprocess a source file
+FWLIB/src/stm32f4xx_qspi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_qspi.c.i
+.PHONY : FWLIB/src/stm32f4xx_qspi.c.i
+
+FWLIB/src/stm32f4xx_qspi.s: FWLIB/src/stm32f4xx_qspi.c.s
+.PHONY : FWLIB/src/stm32f4xx_qspi.s
+
+# target to generate assembly for a file
+FWLIB/src/stm32f4xx_qspi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_qspi.c.s
+.PHONY : FWLIB/src/stm32f4xx_qspi.c.s
+
+FWLIB/src/stm32f4xx_rcc.o: FWLIB/src/stm32f4xx_rcc.c.o
+.PHONY : FWLIB/src/stm32f4xx_rcc.o
+
+# target to build an object file
+FWLIB/src/stm32f4xx_rcc.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_rcc.c.o
+.PHONY : FWLIB/src/stm32f4xx_rcc.c.o
+
+FWLIB/src/stm32f4xx_rcc.i: FWLIB/src/stm32f4xx_rcc.c.i
+.PHONY : FWLIB/src/stm32f4xx_rcc.i
+
+# target to preprocess a source file
+FWLIB/src/stm32f4xx_rcc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_rcc.c.i
+.PHONY : FWLIB/src/stm32f4xx_rcc.c.i
+
+FWLIB/src/stm32f4xx_rcc.s: FWLIB/src/stm32f4xx_rcc.c.s
+.PHONY : FWLIB/src/stm32f4xx_rcc.s
+
+# target to generate assembly for a file
+FWLIB/src/stm32f4xx_rcc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_rcc.c.s
+.PHONY : FWLIB/src/stm32f4xx_rcc.c.s
+
+FWLIB/src/stm32f4xx_rng.o: FWLIB/src/stm32f4xx_rng.c.o
+.PHONY : FWLIB/src/stm32f4xx_rng.o
+
+# target to build an object file
+FWLIB/src/stm32f4xx_rng.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_rng.c.o
+.PHONY : FWLIB/src/stm32f4xx_rng.c.o
+
+FWLIB/src/stm32f4xx_rng.i: FWLIB/src/stm32f4xx_rng.c.i
+.PHONY : FWLIB/src/stm32f4xx_rng.i
+
+# target to preprocess a source file
+FWLIB/src/stm32f4xx_rng.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_rng.c.i
+.PHONY : FWLIB/src/stm32f4xx_rng.c.i
+
+FWLIB/src/stm32f4xx_rng.s: FWLIB/src/stm32f4xx_rng.c.s
+.PHONY : FWLIB/src/stm32f4xx_rng.s
+
+# target to generate assembly for a file
+FWLIB/src/stm32f4xx_rng.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_rng.c.s
+.PHONY : FWLIB/src/stm32f4xx_rng.c.s
+
+FWLIB/src/stm32f4xx_rtc.o: FWLIB/src/stm32f4xx_rtc.c.o
+.PHONY : FWLIB/src/stm32f4xx_rtc.o
+
+# target to build an object file
+FWLIB/src/stm32f4xx_rtc.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_rtc.c.o
+.PHONY : FWLIB/src/stm32f4xx_rtc.c.o
+
+FWLIB/src/stm32f4xx_rtc.i: FWLIB/src/stm32f4xx_rtc.c.i
+.PHONY : FWLIB/src/stm32f4xx_rtc.i
+
+# target to preprocess a source file
+FWLIB/src/stm32f4xx_rtc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_rtc.c.i
+.PHONY : FWLIB/src/stm32f4xx_rtc.c.i
+
+FWLIB/src/stm32f4xx_rtc.s: FWLIB/src/stm32f4xx_rtc.c.s
+.PHONY : FWLIB/src/stm32f4xx_rtc.s
+
+# target to generate assembly for a file
+FWLIB/src/stm32f4xx_rtc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_rtc.c.s
+.PHONY : FWLIB/src/stm32f4xx_rtc.c.s
+
+FWLIB/src/stm32f4xx_sai.o: FWLIB/src/stm32f4xx_sai.c.o
+.PHONY : FWLIB/src/stm32f4xx_sai.o
+
+# target to build an object file
+FWLIB/src/stm32f4xx_sai.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_sai.c.o
+.PHONY : FWLIB/src/stm32f4xx_sai.c.o
+
+FWLIB/src/stm32f4xx_sai.i: FWLIB/src/stm32f4xx_sai.c.i
+.PHONY : FWLIB/src/stm32f4xx_sai.i
+
+# target to preprocess a source file
+FWLIB/src/stm32f4xx_sai.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_sai.c.i
+.PHONY : FWLIB/src/stm32f4xx_sai.c.i
+
+FWLIB/src/stm32f4xx_sai.s: FWLIB/src/stm32f4xx_sai.c.s
+.PHONY : FWLIB/src/stm32f4xx_sai.s
+
+# target to generate assembly for a file
+FWLIB/src/stm32f4xx_sai.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_sai.c.s
+.PHONY : FWLIB/src/stm32f4xx_sai.c.s
+
+FWLIB/src/stm32f4xx_sdio.o: FWLIB/src/stm32f4xx_sdio.c.o
+.PHONY : FWLIB/src/stm32f4xx_sdio.o
+
+# target to build an object file
+FWLIB/src/stm32f4xx_sdio.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_sdio.c.o
+.PHONY : FWLIB/src/stm32f4xx_sdio.c.o
+
+FWLIB/src/stm32f4xx_sdio.i: FWLIB/src/stm32f4xx_sdio.c.i
+.PHONY : FWLIB/src/stm32f4xx_sdio.i
+
+# target to preprocess a source file
+FWLIB/src/stm32f4xx_sdio.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_sdio.c.i
+.PHONY : FWLIB/src/stm32f4xx_sdio.c.i
+
+FWLIB/src/stm32f4xx_sdio.s: FWLIB/src/stm32f4xx_sdio.c.s
+.PHONY : FWLIB/src/stm32f4xx_sdio.s
+
+# target to generate assembly for a file
+FWLIB/src/stm32f4xx_sdio.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_sdio.c.s
+.PHONY : FWLIB/src/stm32f4xx_sdio.c.s
+
+FWLIB/src/stm32f4xx_spdifrx.o: FWLIB/src/stm32f4xx_spdifrx.c.o
+.PHONY : FWLIB/src/stm32f4xx_spdifrx.o
+
+# target to build an object file
+FWLIB/src/stm32f4xx_spdifrx.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_spdifrx.c.o
+.PHONY : FWLIB/src/stm32f4xx_spdifrx.c.o
+
+FWLIB/src/stm32f4xx_spdifrx.i: FWLIB/src/stm32f4xx_spdifrx.c.i
+.PHONY : FWLIB/src/stm32f4xx_spdifrx.i
+
+# target to preprocess a source file
+FWLIB/src/stm32f4xx_spdifrx.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_spdifrx.c.i
+.PHONY : FWLIB/src/stm32f4xx_spdifrx.c.i
+
+FWLIB/src/stm32f4xx_spdifrx.s: FWLIB/src/stm32f4xx_spdifrx.c.s
+.PHONY : FWLIB/src/stm32f4xx_spdifrx.s
+
+# target to generate assembly for a file
+FWLIB/src/stm32f4xx_spdifrx.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_spdifrx.c.s
+.PHONY : FWLIB/src/stm32f4xx_spdifrx.c.s
+
+FWLIB/src/stm32f4xx_spi.o: FWLIB/src/stm32f4xx_spi.c.o
+.PHONY : FWLIB/src/stm32f4xx_spi.o
+
+# target to build an object file
+FWLIB/src/stm32f4xx_spi.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_spi.c.o
+.PHONY : FWLIB/src/stm32f4xx_spi.c.o
+
+FWLIB/src/stm32f4xx_spi.i: FWLIB/src/stm32f4xx_spi.c.i
+.PHONY : FWLIB/src/stm32f4xx_spi.i
+
+# target to preprocess a source file
+FWLIB/src/stm32f4xx_spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_spi.c.i
+.PHONY : FWLIB/src/stm32f4xx_spi.c.i
+
+FWLIB/src/stm32f4xx_spi.s: FWLIB/src/stm32f4xx_spi.c.s
+.PHONY : FWLIB/src/stm32f4xx_spi.s
+
+# target to generate assembly for a file
+FWLIB/src/stm32f4xx_spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_spi.c.s
+.PHONY : FWLIB/src/stm32f4xx_spi.c.s
+
+FWLIB/src/stm32f4xx_syscfg.o: FWLIB/src/stm32f4xx_syscfg.c.o
+.PHONY : FWLIB/src/stm32f4xx_syscfg.o
+
+# target to build an object file
+FWLIB/src/stm32f4xx_syscfg.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_syscfg.c.o
+.PHONY : FWLIB/src/stm32f4xx_syscfg.c.o
+
+FWLIB/src/stm32f4xx_syscfg.i: FWLIB/src/stm32f4xx_syscfg.c.i
+.PHONY : FWLIB/src/stm32f4xx_syscfg.i
+
+# target to preprocess a source file
+FWLIB/src/stm32f4xx_syscfg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_syscfg.c.i
+.PHONY : FWLIB/src/stm32f4xx_syscfg.c.i
+
+FWLIB/src/stm32f4xx_syscfg.s: FWLIB/src/stm32f4xx_syscfg.c.s
+.PHONY : FWLIB/src/stm32f4xx_syscfg.s
+
+# target to generate assembly for a file
+FWLIB/src/stm32f4xx_syscfg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_syscfg.c.s
+.PHONY : FWLIB/src/stm32f4xx_syscfg.c.s
+
+FWLIB/src/stm32f4xx_tim.o: FWLIB/src/stm32f4xx_tim.c.o
+.PHONY : FWLIB/src/stm32f4xx_tim.o
+
+# target to build an object file
+FWLIB/src/stm32f4xx_tim.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_tim.c.o
+.PHONY : FWLIB/src/stm32f4xx_tim.c.o
+
+FWLIB/src/stm32f4xx_tim.i: FWLIB/src/stm32f4xx_tim.c.i
+.PHONY : FWLIB/src/stm32f4xx_tim.i
+
+# target to preprocess a source file
+FWLIB/src/stm32f4xx_tim.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_tim.c.i
+.PHONY : FWLIB/src/stm32f4xx_tim.c.i
+
+FWLIB/src/stm32f4xx_tim.s: FWLIB/src/stm32f4xx_tim.c.s
+.PHONY : FWLIB/src/stm32f4xx_tim.s
+
+# target to generate assembly for a file
+FWLIB/src/stm32f4xx_tim.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_tim.c.s
+.PHONY : FWLIB/src/stm32f4xx_tim.c.s
+
+FWLIB/src/stm32f4xx_usart.o: FWLIB/src/stm32f4xx_usart.c.o
+.PHONY : FWLIB/src/stm32f4xx_usart.o
+
+# target to build an object file
+FWLIB/src/stm32f4xx_usart.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_usart.c.o
+.PHONY : FWLIB/src/stm32f4xx_usart.c.o
+
+FWLIB/src/stm32f4xx_usart.i: FWLIB/src/stm32f4xx_usart.c.i
+.PHONY : FWLIB/src/stm32f4xx_usart.i
+
+# target to preprocess a source file
+FWLIB/src/stm32f4xx_usart.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_usart.c.i
+.PHONY : FWLIB/src/stm32f4xx_usart.c.i
+
+FWLIB/src/stm32f4xx_usart.s: FWLIB/src/stm32f4xx_usart.c.s
+.PHONY : FWLIB/src/stm32f4xx_usart.s
+
+# target to generate assembly for a file
+FWLIB/src/stm32f4xx_usart.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_usart.c.s
+.PHONY : FWLIB/src/stm32f4xx_usart.c.s
+
+FWLIB/src/stm32f4xx_wwdg.o: FWLIB/src/stm32f4xx_wwdg.c.o
+.PHONY : FWLIB/src/stm32f4xx_wwdg.o
+
+# target to build an object file
+FWLIB/src/stm32f4xx_wwdg.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_wwdg.c.o
+.PHONY : FWLIB/src/stm32f4xx_wwdg.c.o
+
+FWLIB/src/stm32f4xx_wwdg.i: FWLIB/src/stm32f4xx_wwdg.c.i
+.PHONY : FWLIB/src/stm32f4xx_wwdg.i
+
+# target to preprocess a source file
+FWLIB/src/stm32f4xx_wwdg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_wwdg.c.i
+.PHONY : FWLIB/src/stm32f4xx_wwdg.c.i
+
+FWLIB/src/stm32f4xx_wwdg.s: FWLIB/src/stm32f4xx_wwdg.c.s
+.PHONY : FWLIB/src/stm32f4xx_wwdg.s
+
+# target to generate assembly for a file
+FWLIB/src/stm32f4xx_wwdg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/FWLIB/src/stm32f4xx_wwdg.c.s
+.PHONY : FWLIB/src/stm32f4xx_wwdg.c.s
+
 HARDWARE/src/HMC5883L.o: HARDWARE/src/HMC5883L.c.o
 .PHONY : HARDWARE/src/HMC5883L.o
 
@@ -318,29 +1302,29 @@ SYSTEM/src/ChangeHCLK.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/SYSTEM/src/ChangeHCLK.c.s
 .PHONY : SYSTEM/src/ChangeHCLK.c.s
 
-SYSTEM/src/Delay.o: SYSTEM/src/Delay.c.o
-.PHONY : SYSTEM/src/Delay.o
+USER/src/delay.o: USER/src/delay.c.o
+.PHONY : USER/src/delay.o
 
 # target to build an object file
-SYSTEM/src/Delay.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/SYSTEM/src/Delay.c.o
-.PHONY : SYSTEM/src/Delay.c.o
+USER/src/delay.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/USER/src/delay.c.o
+.PHONY : USER/src/delay.c.o
 
-SYSTEM/src/Delay.i: SYSTEM/src/Delay.c.i
-.PHONY : SYSTEM/src/Delay.i
+USER/src/delay.i: USER/src/delay.c.i
+.PHONY : USER/src/delay.i
 
 # target to preprocess a source file
-SYSTEM/src/Delay.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/SYSTEM/src/Delay.c.i
-.PHONY : SYSTEM/src/Delay.c.i
+USER/src/delay.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/USER/src/delay.c.i
+.PHONY : USER/src/delay.c.i
 
-SYSTEM/src/Delay.s: SYSTEM/src/Delay.c.s
-.PHONY : SYSTEM/src/Delay.s
+USER/src/delay.s: USER/src/delay.c.s
+.PHONY : USER/src/delay.s
 
 # target to generate assembly for a file
-SYSTEM/src/Delay.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/SYSTEM/src/Delay.c.s
-.PHONY : SYSTEM/src/Delay.c.s
+USER/src/delay.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/USER/src/delay.c.s
+.PHONY : USER/src/delay.c.s
 
 USER/src/main.o: USER/src/main.c.o
 .PHONY : USER/src/main.o
@@ -745,6 +1729,129 @@ help:
 	@echo "... Drone.bin"
 	@echo "... Drone.elf"
 	@echo "... CORE/startup_stm32f401xe.o"
+	@echo "... FWLIB/src/misc.o"
+	@echo "... FWLIB/src/misc.i"
+	@echo "... FWLIB/src/misc.s"
+	@echo "... FWLIB/src/stm32f4xx_adc.o"
+	@echo "... FWLIB/src/stm32f4xx_adc.i"
+	@echo "... FWLIB/src/stm32f4xx_adc.s"
+	@echo "... FWLIB/src/stm32f4xx_can.o"
+	@echo "... FWLIB/src/stm32f4xx_can.i"
+	@echo "... FWLIB/src/stm32f4xx_can.s"
+	@echo "... FWLIB/src/stm32f4xx_cec.o"
+	@echo "... FWLIB/src/stm32f4xx_cec.i"
+	@echo "... FWLIB/src/stm32f4xx_cec.s"
+	@echo "... FWLIB/src/stm32f4xx_crc.o"
+	@echo "... FWLIB/src/stm32f4xx_crc.i"
+	@echo "... FWLIB/src/stm32f4xx_crc.s"
+	@echo "... FWLIB/src/stm32f4xx_cryp.o"
+	@echo "... FWLIB/src/stm32f4xx_cryp.i"
+	@echo "... FWLIB/src/stm32f4xx_cryp.s"
+	@echo "... FWLIB/src/stm32f4xx_cryp_aes.o"
+	@echo "... FWLIB/src/stm32f4xx_cryp_aes.i"
+	@echo "... FWLIB/src/stm32f4xx_cryp_aes.s"
+	@echo "... FWLIB/src/stm32f4xx_cryp_des.o"
+	@echo "... FWLIB/src/stm32f4xx_cryp_des.i"
+	@echo "... FWLIB/src/stm32f4xx_cryp_des.s"
+	@echo "... FWLIB/src/stm32f4xx_cryp_tdes.o"
+	@echo "... FWLIB/src/stm32f4xx_cryp_tdes.i"
+	@echo "... FWLIB/src/stm32f4xx_cryp_tdes.s"
+	@echo "... FWLIB/src/stm32f4xx_dac.o"
+	@echo "... FWLIB/src/stm32f4xx_dac.i"
+	@echo "... FWLIB/src/stm32f4xx_dac.s"
+	@echo "... FWLIB/src/stm32f4xx_dbgmcu.o"
+	@echo "... FWLIB/src/stm32f4xx_dbgmcu.i"
+	@echo "... FWLIB/src/stm32f4xx_dbgmcu.s"
+	@echo "... FWLIB/src/stm32f4xx_dcmi.o"
+	@echo "... FWLIB/src/stm32f4xx_dcmi.i"
+	@echo "... FWLIB/src/stm32f4xx_dcmi.s"
+	@echo "... FWLIB/src/stm32f4xx_dfsdm.o"
+	@echo "... FWLIB/src/stm32f4xx_dfsdm.i"
+	@echo "... FWLIB/src/stm32f4xx_dfsdm.s"
+	@echo "... FWLIB/src/stm32f4xx_dma.o"
+	@echo "... FWLIB/src/stm32f4xx_dma.i"
+	@echo "... FWLIB/src/stm32f4xx_dma.s"
+	@echo "... FWLIB/src/stm32f4xx_dma2d.o"
+	@echo "... FWLIB/src/stm32f4xx_dma2d.i"
+	@echo "... FWLIB/src/stm32f4xx_dma2d.s"
+	@echo "... FWLIB/src/stm32f4xx_dsi.o"
+	@echo "... FWLIB/src/stm32f4xx_dsi.i"
+	@echo "... FWLIB/src/stm32f4xx_dsi.s"
+	@echo "... FWLIB/src/stm32f4xx_exti.o"
+	@echo "... FWLIB/src/stm32f4xx_exti.i"
+	@echo "... FWLIB/src/stm32f4xx_exti.s"
+	@echo "... FWLIB/src/stm32f4xx_flash.o"
+	@echo "... FWLIB/src/stm32f4xx_flash.i"
+	@echo "... FWLIB/src/stm32f4xx_flash.s"
+	@echo "... FWLIB/src/stm32f4xx_flash_ramfunc.o"
+	@echo "... FWLIB/src/stm32f4xx_flash_ramfunc.i"
+	@echo "... FWLIB/src/stm32f4xx_flash_ramfunc.s"
+	@echo "... FWLIB/src/stm32f4xx_fmpi2c.o"
+	@echo "... FWLIB/src/stm32f4xx_fmpi2c.i"
+	@echo "... FWLIB/src/stm32f4xx_fmpi2c.s"
+	@echo "... FWLIB/src/stm32f4xx_gpio.o"
+	@echo "... FWLIB/src/stm32f4xx_gpio.i"
+	@echo "... FWLIB/src/stm32f4xx_gpio.s"
+	@echo "... FWLIB/src/stm32f4xx_hash.o"
+	@echo "... FWLIB/src/stm32f4xx_hash.i"
+	@echo "... FWLIB/src/stm32f4xx_hash.s"
+	@echo "... FWLIB/src/stm32f4xx_hash_md5.o"
+	@echo "... FWLIB/src/stm32f4xx_hash_md5.i"
+	@echo "... FWLIB/src/stm32f4xx_hash_md5.s"
+	@echo "... FWLIB/src/stm32f4xx_hash_sha1.o"
+	@echo "... FWLIB/src/stm32f4xx_hash_sha1.i"
+	@echo "... FWLIB/src/stm32f4xx_hash_sha1.s"
+	@echo "... FWLIB/src/stm32f4xx_i2c.o"
+	@echo "... FWLIB/src/stm32f4xx_i2c.i"
+	@echo "... FWLIB/src/stm32f4xx_i2c.s"
+	@echo "... FWLIB/src/stm32f4xx_iwdg.o"
+	@echo "... FWLIB/src/stm32f4xx_iwdg.i"
+	@echo "... FWLIB/src/stm32f4xx_iwdg.s"
+	@echo "... FWLIB/src/stm32f4xx_lptim.o"
+	@echo "... FWLIB/src/stm32f4xx_lptim.i"
+	@echo "... FWLIB/src/stm32f4xx_lptim.s"
+	@echo "... FWLIB/src/stm32f4xx_ltdc.o"
+	@echo "... FWLIB/src/stm32f4xx_ltdc.i"
+	@echo "... FWLIB/src/stm32f4xx_ltdc.s"
+	@echo "... FWLIB/src/stm32f4xx_pwr.o"
+	@echo "... FWLIB/src/stm32f4xx_pwr.i"
+	@echo "... FWLIB/src/stm32f4xx_pwr.s"
+	@echo "... FWLIB/src/stm32f4xx_qspi.o"
+	@echo "... FWLIB/src/stm32f4xx_qspi.i"
+	@echo "... FWLIB/src/stm32f4xx_qspi.s"
+	@echo "... FWLIB/src/stm32f4xx_rcc.o"
+	@echo "... FWLIB/src/stm32f4xx_rcc.i"
+	@echo "... FWLIB/src/stm32f4xx_rcc.s"
+	@echo "... FWLIB/src/stm32f4xx_rng.o"
+	@echo "... FWLIB/src/stm32f4xx_rng.i"
+	@echo "... FWLIB/src/stm32f4xx_rng.s"
+	@echo "... FWLIB/src/stm32f4xx_rtc.o"
+	@echo "... FWLIB/src/stm32f4xx_rtc.i"
+	@echo "... FWLIB/src/stm32f4xx_rtc.s"
+	@echo "... FWLIB/src/stm32f4xx_sai.o"
+	@echo "... FWLIB/src/stm32f4xx_sai.i"
+	@echo "... FWLIB/src/stm32f4xx_sai.s"
+	@echo "... FWLIB/src/stm32f4xx_sdio.o"
+	@echo "... FWLIB/src/stm32f4xx_sdio.i"
+	@echo "... FWLIB/src/stm32f4xx_sdio.s"
+	@echo "... FWLIB/src/stm32f4xx_spdifrx.o"
+	@echo "... FWLIB/src/stm32f4xx_spdifrx.i"
+	@echo "... FWLIB/src/stm32f4xx_spdifrx.s"
+	@echo "... FWLIB/src/stm32f4xx_spi.o"
+	@echo "... FWLIB/src/stm32f4xx_spi.i"
+	@echo "... FWLIB/src/stm32f4xx_spi.s"
+	@echo "... FWLIB/src/stm32f4xx_syscfg.o"
+	@echo "... FWLIB/src/stm32f4xx_syscfg.i"
+	@echo "... FWLIB/src/stm32f4xx_syscfg.s"
+	@echo "... FWLIB/src/stm32f4xx_tim.o"
+	@echo "... FWLIB/src/stm32f4xx_tim.i"
+	@echo "... FWLIB/src/stm32f4xx_tim.s"
+	@echo "... FWLIB/src/stm32f4xx_usart.o"
+	@echo "... FWLIB/src/stm32f4xx_usart.i"
+	@echo "... FWLIB/src/stm32f4xx_usart.s"
+	@echo "... FWLIB/src/stm32f4xx_wwdg.o"
+	@echo "... FWLIB/src/stm32f4xx_wwdg.i"
+	@echo "... FWLIB/src/stm32f4xx_wwdg.s"
 	@echo "... HARDWARE/src/HMC5883L.o"
 	@echo "... HARDWARE/src/HMC5883L.i"
 	@echo "... HARDWARE/src/HMC5883L.s"
@@ -766,9 +1873,9 @@ help:
 	@echo "... SYSTEM/src/ChangeHCLK.o"
 	@echo "... SYSTEM/src/ChangeHCLK.i"
 	@echo "... SYSTEM/src/ChangeHCLK.s"
-	@echo "... SYSTEM/src/Delay.o"
-	@echo "... SYSTEM/src/Delay.i"
-	@echo "... SYSTEM/src/Delay.s"
+	@echo "... USER/src/delay.o"
+	@echo "... USER/src/delay.i"
+	@echo "... USER/src/delay.s"
 	@echo "... USER/src/main.o"
 	@echo "... USER/src/main.i"
 	@echo "... USER/src/main.s"
