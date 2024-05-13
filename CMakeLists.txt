@@ -16,6 +16,7 @@ set(CMAKE_C_EXTENSIONS OFF)
 # add startup file
 set(STARTUP_FILE ${CMAKE_CURRENT_SOURCE_DIR}/CORE/startup_stm32f401xe.s)
 set(OS_CPU_A_FILE ${CMAKE_CURRENT_SOURCE_DIR}/os/os_cpu_a.s)
+set(SYSTEMVIEW_FILE ${CMAKE_CURRENT_SOURCE_DIR}/SystemView/SEGGER_RTT_ASM_ARMv7M.s)
 
 # add .h
 set(LINKER_SCRIPT ${CMAKE_CURRENT_SOURCE_DIR}/STM32F401RETx_FLASH.ld)
@@ -25,6 +26,8 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR}/HARDWARE/inc)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/SYSTEM/inc)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/USER/inc)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/os/inc)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/SystemView)
+
 
 # add .c
 file(GLOB SOURCE 
@@ -33,6 +36,7 @@ file(GLOB SOURCE
 "${CMAKE_CURRENT_SOURCE_DIR}/HARDWARE/src/*.c"
 "${CMAKE_CURRENT_SOURCE_DIR}/SYSTEM/src/*.c"
 "${CMAKE_CURRENT_SOURCE_DIR}/os/src/*.c" 
+"${CMAKE_CURRENT_SOURCE_DIR}/SystemView/*.c" 
 )
 set(SOURCE_FILES ${SOURCE})
 
@@ -56,9 +60,12 @@ add_link_options(-mcpu=cortex-m4 -mthumb -DSTM32F401xx -T${CMAKE_SOURCE_DIR}/STM
 
 # ${OS_CPU_A_FILE}
 # 添加可执行文件
-add_executable(${PROJECT_NAME}.elf ${SOURCE_FILES} ${STARTUP_FILE} ${OS_CPU_A_FILE})
+add_executable(${PROJECT_NAME}.elf ${SOURCE_FILES} ${STARTUP_FILE} ${OS_CPU_A_FILE} ${SYSTEMVIEW_FILE})
 target_link_libraries(${PROJECT_NAME}.elf -Wl,--start-group -lgcc -lc -lm -lrdimon -Wl,--end-group)
 
 
 # 添加目标文件
 add_custom_target(${PROJECT_NAME}.bin ALL DEPENDS ${PROJECT_NAME}.elf COMMAND arm-none-eabi-objcopy -Obinary ${PROJECT_NAME}.elf ${PROJECT_NAME}.bin)
+
+
+add_custom_target(openocd COMMAND openocd -f ${CMAKE_CURRENT_SOURCE_DIR}/STM32F401RE.cfg -c init -c "reset halt" -c "flash write_image erase ${PROJECT_NAME}.bin 0x08000000" -c "reset" -c shutdown WORKING_DIRECTORY ${CMAKE_RUNTIME_OUTPUT_DIRECTORY})

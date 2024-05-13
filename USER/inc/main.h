@@ -27,6 +27,7 @@
 #include "MPU.h"
 #include "Moter.h"
 #include "Receiver.h"
+#include "SEGGER_SYSVIEW.h"
 #include "Serial.h"
 #include "delay.h"
 #include "os_cpu.h"

@@ -45,7 +45,7 @@ void TIM1_CC_IRQHandler(void) {
   if (TIM1->SR & 0x2) // Capture/Compare 1 interrupt flag
   {
     TIM1->CNT = 0;
-    if (TIM1->CCR1 >= 4000) {
+    if (TIM1->CCR1 >= 2500) {
       receiver.yes = 1;
       receiver.now = 0;
     }

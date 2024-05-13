@@ -1,4 +1,5 @@
-/home/alexis/Project/uCOS_Drone (another copy)/build/CMakeFiles/Drone.elf.dir
-/home/alexis/Project/uCOS_Drone (another copy)/build/CMakeFiles/Drone.bin.dir
-/home/alexis/Project/uCOS_Drone (another copy)/build/CMakeFiles/edit_cache.dir
-/home/alexis/Project/uCOS_Drone (another copy)/build/CMakeFiles/rebuild_cache.dir
+/home/alexis/Project/uCOS_Drone (ing)/build/CMakeFiles/Drone.elf.dir
+/home/alexis/Project/uCOS_Drone (ing)/build/CMakeFiles/Drone.bin.dir
+/home/alexis/Project/uCOS_Drone (ing)/build/CMakeFiles/openocd.dir
+/home/alexis/Project/uCOS_Drone (ing)/build/CMakeFiles/edit_cache.dir
+/home/alexis/Project/uCOS_Drone (ing)/build/CMakeFiles/rebuild_cache.dir

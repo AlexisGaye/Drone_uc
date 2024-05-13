@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/alexis/Project/uCOS_Drone (another copy)"
+CMAKE_SOURCE_DIR = "/home/alexis/Project/uCOS_Drone (ing)"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/alexis/Project/uCOS_Drone (another copy)/build"
+CMAKE_BINARY_DIR = "/home/alexis/Project/uCOS_Drone (ing)/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/alexis/Project/uCOS_Drone (another copy)/build/CMakeFiles" "/home/alexis/Project/uCOS_Drone (another copy)/build//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/alexis/Project/uCOS_Drone (ing)/build/CMakeFiles" "/home/alexis/Project/uCOS_Drone (ing)/build//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/alexis/Project/uCOS_Drone (another copy)/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/alexis/Project/uCOS_Drone (ing)/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -141,6 +141,19 @@ Drone.bin: cmake_check_build_system
 Drone.bin/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.bin.dir/build.make CMakeFiles/Drone.bin.dir/build
 .PHONY : Drone.bin/fast
+
+#=============================================================================
+# Target rules for targets named openocd
+
+# Build rule for target.
+openocd: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 openocd
+.PHONY : openocd
+
+# fast build rule for target.
+openocd/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/openocd.dir/build.make CMakeFiles/openocd.dir/build
+.PHONY : openocd/fast
 
 CORE/startup_stm32f401xe.o: CORE/startup_stm32f401xe.s.o
 .PHONY : CORE/startup_stm32f401xe.o
@@ -1302,6 +1315,134 @@ SYSTEM/src/ChangeHCLK.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/SYSTEM/src/ChangeHCLK.c.s
 .PHONY : SYSTEM/src/ChangeHCLK.c.s
 
+SystemView/SEGGER_RTT.o: SystemView/SEGGER_RTT.c.o
+.PHONY : SystemView/SEGGER_RTT.o
+
+# target to build an object file
+SystemView/SEGGER_RTT.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/SystemView/SEGGER_RTT.c.o
+.PHONY : SystemView/SEGGER_RTT.c.o
+
+SystemView/SEGGER_RTT.i: SystemView/SEGGER_RTT.c.i
+.PHONY : SystemView/SEGGER_RTT.i
+
+# target to preprocess a source file
+SystemView/SEGGER_RTT.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/SystemView/SEGGER_RTT.c.i
+.PHONY : SystemView/SEGGER_RTT.c.i
+
+SystemView/SEGGER_RTT.s: SystemView/SEGGER_RTT.c.s
+.PHONY : SystemView/SEGGER_RTT.s
+
+# target to generate assembly for a file
+SystemView/SEGGER_RTT.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/SystemView/SEGGER_RTT.c.s
+.PHONY : SystemView/SEGGER_RTT.c.s
+
+SystemView/SEGGER_RTT_ASM_ARMv7M.o: SystemView/SEGGER_RTT_ASM_ARMv7M.s.o
+.PHONY : SystemView/SEGGER_RTT_ASM_ARMv7M.o
+
+# target to build an object file
+SystemView/SEGGER_RTT_ASM_ARMv7M.s.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/SystemView/SEGGER_RTT_ASM_ARMv7M.s.o
+.PHONY : SystemView/SEGGER_RTT_ASM_ARMv7M.s.o
+
+SystemView/SEGGER_RTT_printf.o: SystemView/SEGGER_RTT_printf.c.o
+.PHONY : SystemView/SEGGER_RTT_printf.o
+
+# target to build an object file
+SystemView/SEGGER_RTT_printf.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/SystemView/SEGGER_RTT_printf.c.o
+.PHONY : SystemView/SEGGER_RTT_printf.c.o
+
+SystemView/SEGGER_RTT_printf.i: SystemView/SEGGER_RTT_printf.c.i
+.PHONY : SystemView/SEGGER_RTT_printf.i
+
+# target to preprocess a source file
+SystemView/SEGGER_RTT_printf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/SystemView/SEGGER_RTT_printf.c.i
+.PHONY : SystemView/SEGGER_RTT_printf.c.i
+
+SystemView/SEGGER_RTT_printf.s: SystemView/SEGGER_RTT_printf.c.s
+.PHONY : SystemView/SEGGER_RTT_printf.s
+
+# target to generate assembly for a file
+SystemView/SEGGER_RTT_printf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/SystemView/SEGGER_RTT_printf.c.s
+.PHONY : SystemView/SEGGER_RTT_printf.c.s
+
+SystemView/SEGGER_SYSVIEW.o: SystemView/SEGGER_SYSVIEW.c.o
+.PHONY : SystemView/SEGGER_SYSVIEW.o
+
+# target to build an object file
+SystemView/SEGGER_SYSVIEW.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/SystemView/SEGGER_SYSVIEW.c.o
+.PHONY : SystemView/SEGGER_SYSVIEW.c.o
+
+SystemView/SEGGER_SYSVIEW.i: SystemView/SEGGER_SYSVIEW.c.i
+.PHONY : SystemView/SEGGER_SYSVIEW.i
+
+# target to preprocess a source file
+SystemView/SEGGER_SYSVIEW.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/SystemView/SEGGER_SYSVIEW.c.i
+.PHONY : SystemView/SEGGER_SYSVIEW.c.i
+
+SystemView/SEGGER_SYSVIEW.s: SystemView/SEGGER_SYSVIEW.c.s
+.PHONY : SystemView/SEGGER_SYSVIEW.s
+
+# target to generate assembly for a file
+SystemView/SEGGER_SYSVIEW.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/SystemView/SEGGER_SYSVIEW.c.s
+.PHONY : SystemView/SEGGER_SYSVIEW.c.s
+
+SystemView/SEGGER_SYSVIEW_Config_uCOSII.o: SystemView/SEGGER_SYSVIEW_Config_uCOSII.c.o
+.PHONY : SystemView/SEGGER_SYSVIEW_Config_uCOSII.o
+
+# target to build an object file
+SystemView/SEGGER_SYSVIEW_Config_uCOSII.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/SystemView/SEGGER_SYSVIEW_Config_uCOSII.c.o
+.PHONY : SystemView/SEGGER_SYSVIEW_Config_uCOSII.c.o
+
+SystemView/SEGGER_SYSVIEW_Config_uCOSII.i: SystemView/SEGGER_SYSVIEW_Config_uCOSII.c.i
+.PHONY : SystemView/SEGGER_SYSVIEW_Config_uCOSII.i
+
+# target to preprocess a source file
+SystemView/SEGGER_SYSVIEW_Config_uCOSII.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/SystemView/SEGGER_SYSVIEW_Config_uCOSII.c.i
+.PHONY : SystemView/SEGGER_SYSVIEW_Config_uCOSII.c.i
+
+SystemView/SEGGER_SYSVIEW_Config_uCOSII.s: SystemView/SEGGER_SYSVIEW_Config_uCOSII.c.s
+.PHONY : SystemView/SEGGER_SYSVIEW_Config_uCOSII.s
+
+# target to generate assembly for a file
+SystemView/SEGGER_SYSVIEW_Config_uCOSII.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/SystemView/SEGGER_SYSVIEW_Config_uCOSII.c.s
+.PHONY : SystemView/SEGGER_SYSVIEW_Config_uCOSII.c.s
+
+SystemView/SEGGER_SYSVIEW_uCOSII.o: SystemView/SEGGER_SYSVIEW_uCOSII.c.o
+.PHONY : SystemView/SEGGER_SYSVIEW_uCOSII.o
+
+# target to build an object file
+SystemView/SEGGER_SYSVIEW_uCOSII.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/SystemView/SEGGER_SYSVIEW_uCOSII.c.o
+.PHONY : SystemView/SEGGER_SYSVIEW_uCOSII.c.o
+
+SystemView/SEGGER_SYSVIEW_uCOSII.i: SystemView/SEGGER_SYSVIEW_uCOSII.c.i
+.PHONY : SystemView/SEGGER_SYSVIEW_uCOSII.i
+
+# target to preprocess a source file
+SystemView/SEGGER_SYSVIEW_uCOSII.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/SystemView/SEGGER_SYSVIEW_uCOSII.c.i
+.PHONY : SystemView/SEGGER_SYSVIEW_uCOSII.c.i
+
+SystemView/SEGGER_SYSVIEW_uCOSII.s: SystemView/SEGGER_SYSVIEW_uCOSII.c.s
+.PHONY : SystemView/SEGGER_SYSVIEW_uCOSII.s
+
+# target to generate assembly for a file
+SystemView/SEGGER_SYSVIEW_uCOSII.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Drone.elf.dir/build.make CMakeFiles/Drone.elf.dir/SystemView/SEGGER_SYSVIEW_uCOSII.c.s
+.PHONY : SystemView/SEGGER_SYSVIEW_uCOSII.c.s
+
 USER/src/delay.o: USER/src/delay.c.o
 .PHONY : USER/src/delay.o
 
@@ -1727,6 +1868,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Drone.bin"
+	@echo "... openocd"
 	@echo "... Drone.elf"
 	@echo "... CORE/startup_stm32f401xe.o"
 	@echo "... FWLIB/src/misc.o"
@@ -1873,6 +2015,22 @@ help:
 	@echo "... SYSTEM/src/ChangeHCLK.o"
 	@echo "... SYSTEM/src/ChangeHCLK.i"
 	@echo "... SYSTEM/src/ChangeHCLK.s"
+	@echo "... SystemView/SEGGER_RTT.o"
+	@echo "... SystemView/SEGGER_RTT.i"
+	@echo "... SystemView/SEGGER_RTT.s"
+	@echo "... SystemView/SEGGER_RTT_ASM_ARMv7M.o"
+	@echo "... SystemView/SEGGER_RTT_printf.o"
+	@echo "... SystemView/SEGGER_RTT_printf.i"
+	@echo "... SystemView/SEGGER_RTT_printf.s"
+	@echo "... SystemView/SEGGER_SYSVIEW.o"
+	@echo "... SystemView/SEGGER_SYSVIEW.i"
+	@echo "... SystemView/SEGGER_SYSVIEW.s"
+	@echo "... SystemView/SEGGER_SYSVIEW_Config_uCOSII.o"
+	@echo "... SystemView/SEGGER_SYSVIEW_Config_uCOSII.i"
+	@echo "... SystemView/SEGGER_SYSVIEW_Config_uCOSII.s"
+	@echo "... SystemView/SEGGER_SYSVIEW_uCOSII.o"
+	@echo "... SystemView/SEGGER_SYSVIEW_uCOSII.i"
+	@echo "... SystemView/SEGGER_SYSVIEW_uCOSII.s"
 	@echo "... USER/src/delay.o"
 	@echo "... USER/src/delay.i"
 	@echo "... USER/src/delay.s"

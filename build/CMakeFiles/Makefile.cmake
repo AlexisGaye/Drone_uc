@@ -44,4 +44,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Drone.elf.dir/DependInfo.cmake"
   "CMakeFiles/Drone.bin.dir/DependInfo.cmake"
+  "CMakeFiles/openocd.dir/DependInfo.cmake"
   )

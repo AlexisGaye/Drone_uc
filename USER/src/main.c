@@ -43,7 +43,7 @@ void Serial_Task() {
     Serial_SendByte(' ');
     Serial_SendNumber(MPU_Data_Structure.AccZ, 4);
     Serial_SendByte('\n');
-    OSTimeDlyHMSM(0, 0, 0, 5);
+    OSTimeDlyHMSM(0, 0, 0, 1);
   }
 }
 
@@ -52,6 +52,9 @@ int main(void) {
 
   SystemInit();
   OSInit();
+
+  SEGGER_SYSVIEW_Conf();  // SystemView初始化代码
+  SEGGER_SYSVIEW_Start(); // SystemView启动代码
   // function pointer;;argc;;Stack Pointer
   // Priority;;pstk;;Stack size;;TCB pointer
   // task option
@@ -60,21 +63,18 @@ int main(void) {
                   TASK_STK_SIZE, (void *)0,
                   OS_TASK_OPT_STK_CHK | OS_TASK_OPT_STK_CLR);
   OSTaskNameSet(First_Task_Prio, (INT8U *)"First_Task", &os_err);
-  OSStart();
 
   // OSTaskCreateExt(&Receiver_Task, (void *)0,
   //                 &Receiver_Task_Stk[TASK_STK_SIZE - 1], Receiver_Task_Prio,
   //                 Receiver_Task_Prio, Receiver_Task_Stk, TASK_STK_SIZE,
   //                 (void *)0, OS_TASK_OPT_STK_CHK | OS_TASK_OPT_STK_CLR);
   // OSTaskNameSet(Receiver_Task_Prio, (INT8U *)"First_Task", &os_err);
-  while (1) {
-    OSTaskCreateExt(&Serial_Task, (void *)0,
-                    &Serial_Task_Stk[TASK_STK_SIZE - 1], Serial_Task_Prio,
-                    Serial_Task_Prio, Serial_Task_Stk, TASK_STK_SIZE, (void *)0,
-                    OS_TASK_OPT_STK_CHK | OS_TASK_OPT_STK_CLR);
-    OSTaskNameSet(Receiver_Task_Prio, (INT8U *)"First_Task", &os_err);
+  OSTaskCreateExt(&Serial_Task, (void *)0, &Serial_Task_Stk[TASK_STK_SIZE - 1],
+                  Serial_Task_Prio, Serial_Task_Prio, Serial_Task_Stk,
+                  TASK_STK_SIZE, (void *)0,
+                  OS_TASK_OPT_STK_CHK | OS_TASK_OPT_STK_CLR);
+  OSTaskNameSet(Receiver_Task_Prio, (INT8U *)"First_Task", &os_err);
 
-    OSStart();
-  }
+  OSStart();
   // return 0;
 }

@@ -348,9 +348,9 @@
    STM32F410xx/STM32F411xE by HSE Bypass through STLINK MCO pin of STM32F103
    microcontroller. The frequency cannot be changed and is fixed at 8 MHz.
      Hardware configuration needed for Nucleo Board:
-     锟� SB54, SB55 OFF
-     锟� R35 removed
-     锟� SB16, SB50 ON */
+     閿燂拷 SB54, SB55 OFF
+     閿燂拷 R35 removed
+     閿燂拷 SB16, SB50 ON */
 /* #define USE_HSE_BYPASS */
 
 #if defined(USE_HSE_BYPASS)
